@@ -27,11 +27,6 @@ This project is a complete agency website built using Django 5 and Bootstrap 5, 
   - Rich Text Editor
   - Gmail Service Integration
 
-## 📋 Features
-
-# Django Agency Website with Blog
-
-[Previous sections remain the same...]
 
 ## 📋 Features
 
@@ -50,7 +45,8 @@ Detailed presentation of the agency's service offerings:
 - Service categories
 - Pricing information
 - Service request functionality
-[Screenshot placeholder]
+
+![Services Page Screenshot](https://github.com/xSSanDev/company_webpage_project/blob/master/images/Services.png?raw=true)
 
 ### 3. Testimonials
 Client feedback and success stories:
@@ -58,14 +54,16 @@ Client feedback and success stories:
 - Success metrics
 - Client logos and testimonials
 - Rating system
-[Screenshot placeholder]
+
+![Testimonials Page Screenshot](https://github.com/xSSanDev/company_webpage_project/blob/master/images/Tistimonials.png?raw=true)
 
 ### 4. FAQ
 Interactive frequently asked questions section:
 - Categorized questions and answers
 - Search functionality
 - Expandable/collapsible answers
-[Screenshot placeholder]
+
+![FAQ Page Screenshot](https://github.com/xSSanDev/company_webpage_project/blob/master/images/FAQ.png?raw=true)
 
 ### 5. Blog
 Full-featured blog system with:
@@ -74,7 +72,8 @@ Full-featured blog system with:
 - Search functionality
 - Comment system
 - Social sharing options
-[Screenshot placeholder]
+
+![Blog Page Screenshot](https://github.com/xSSanDev/company_webpage_project/blob/master/images/BLOG.png?raw=true)
 
 ### 6. Contact
 Interactive contact features:
@@ -82,7 +81,9 @@ Interactive contact features:
 - Location map
 - Business hours
 - Social media links
-[Screenshot placeholder]
+
+![Contact Page Screenshot](https://github.com/xSSanDev/company_webpage_project/blob/master/images/CONTACT.png?raw=true)
+
 
 ## 🛠️ Installation and Setup
 
