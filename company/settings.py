@@ -27,7 +27,7 @@ SECRET_KEY = 'vovkc+(e0a@+9^$v1*zxs_tyo+f7faybmwl=90^e-buqu+*i*9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['xSSanDev.pythonanywhere.com']
 
 
 # Application definition
@@ -137,5 +137,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.googlemail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'azzam49coder@gmail.com'
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD') # app password
+EMAIL_HOST_USER = 'anasszeroual86@gmail.com'
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')
+#EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD') # app password
+
+

@@ -20,6 +20,7 @@ class GeneralInfo(models.Model):
     #     db_table = "custom_table_name"
 
 class Service(models.Model):
+    #icon = models.CharField(max_length=255, blank=True, null=True)
     icon = models.CharField(max_length=50, blank=True, null=True)
     title = models.CharField(max_length=255, unique=True)
     description = models.TextField()
@@ -82,7 +83,7 @@ class Blog(models.Model):
     # on_delete=models.CASCADE - if detelting the author, django will auto delete the author's blogs
     # on_delete=models.PROTECT - if deleting the author, django will not allow that if the author has blogs
     # on_delete=models.SET_NULL - if deleting the author, django will make author column as blank (requires to have null=True & blank=True attributes on author column)
-    
+
     created_at = models.DateTimeField(default=timezone.now)
     content = RichTextField() #models.TextField()
 
