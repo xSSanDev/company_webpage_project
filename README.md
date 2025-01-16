@@ -1,4 +1,4 @@
-# 💡💡💡 FutureGrid Solutions 🌟🌟🌟
+# 🌟🌟🌟 FutureGrid Solutions 🌟🌟🌟
 
 A comprehensive full-stack web application built with Django 5 and Bootstrap 5, featuring a modern agency website with an integrated blog system.
 
